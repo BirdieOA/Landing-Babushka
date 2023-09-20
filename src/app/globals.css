@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.boton {
+  @apply text-slate-700 bg-rose-200 border-2 shadow-[#804040]/50 border-[#d87f7f]  p-2 rounded-md mt-8 cursor-pointer font-bold hover:bg-[#86A1B3] hover:border-[#B3E1FF] hover:text-white ease-in duration-200 shadow-lg sm:text-xl;
+}
+
+::-webkit-scrollbar {
+  width: 0.9em;
+  display: inline;
+
+  
+}
+
+::-webkit-scrollbar-track {
+  background: #d87f7f;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 100vh;
+  background: #fecaca;
+  border: 2px solid #B46262;
+}

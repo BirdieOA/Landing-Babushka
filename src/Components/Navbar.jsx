@@ -87,7 +87,7 @@ export default function Navbar() {
                 </li>
                 <li className="text-center text-2xl w-full border-t border-[#fecaca]  text-slate-700  hover:text-[#fecaca]  hover:bg-[#cf6b6b] ease-in duration-300 py-2">
                   <a href="#nosotros" className="" onClick={closeMenu}>
-                    NOSOTROS
+                    NOSOTRAS
                   </a>
                 </li>
                 <li className="text-center text-2xl w-full border-t border-[#fecaca]  text-slate-700 hover:text-[#fecaca]  hover:bg-[#cf6b6b] ease-in duration-300 py-2">

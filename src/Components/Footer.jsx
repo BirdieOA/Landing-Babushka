@@ -24,25 +24,27 @@ export default function Footer() {
           />
         </a>{" "}
         <div className="flex flex-row justify-center items-center mt-14 mb-10 gap-6 sm:gap-16">
-          <a href="https://www.facebook.com/nora.makovitz">
+          <a href="https://www.facebook.com/nora.makovitz" target="_blank">
             <BsFacebook
+            
               size={50}
               className="fill-slate-800 hover:fill-[#fecaca] ease-in duration-200 cursor-pointer drop-shadow-lg"
             />
           </a>
-          <a href="https://www.instagram.com/babushka.arg/">
+          <a href="https://www.instagram.com/babushka.arg/" target="_blank">
             <BsInstagram
               size={50}
-              className="fill-slate-800 hover:fill-[#fecaca] ease-in duration-200 cursor-pointer  drop-shadow-lg "
+              className="fill-slate-800 hover:fill-[#fecaca] ease-in duration-200 cursor-pointer  drop-shadow-lg"
+              
             />
           </a>
-          <a href="https://wa.me/5491150076209">
+          <a href="https://wa.me/5491150076209" target="_blank">
             <BsWhatsapp
               size={50}
               className="fill-slate-800 hover:fill-[#fecaca] ease-in duration-200 cursor-pointer  drop-shadow-lg "
             />
           </a>
-          <a href="mailto:nmakovitz@hotmail.com">
+          <a href="mailto:nmakovitz@hotmail.com" target="_blank">
             <BsMailbox2
               size={50}
               className="fill-slate-800 hover:fill-[#fecaca] ease-in duration-200 cursor-pointer drop-shadow-lg "

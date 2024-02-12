@@ -28,26 +28,26 @@ export default function Footer() {
             <BsFacebook
             
               size={50}
-              className="fill-slate-800 hover:fill-[#fecaca] ease-in duration-200 cursor-pointer drop-shadow-lg"
+              className="fill-slate-800 hover:fill-[#fecaca] ease-in duration-100 cursor-pointer drop-shadow-lg"
             />
           </a>
           <a href="https://www.instagram.com/babushka.arg/" target="_blank">
             <BsInstagram
               size={50}
-              className="fill-slate-800 hover:fill-[#fecaca] ease-in duration-200 cursor-pointer  drop-shadow-lg"
+              className="fill-slate-800 hover:fill-[#fecaca] ease-in duration-100 cursor-pointer  drop-shadow-lg"
               
             />
           </a>
           <a href="https://wa.me/5491150076209" target="_blank">
             <BsWhatsapp
               size={50}
-              className="fill-slate-800 hover:fill-[#fecaca] ease-in duration-200 cursor-pointer  drop-shadow-lg "
+              className="fill-slate-800 hover:fill-[#fecaca] ease-in duration-100 cursor-pointer  drop-shadow-lg"
             />
           </a>
           <a href="mailto:nmakovitz@hotmail.com" target="_blank">
             <BsMailbox2
               size={50}
-              className="fill-slate-800 hover:fill-[#fecaca] ease-in duration-200 cursor-pointer drop-shadow-lg "
+              className="fill-slate-800 hover:fill-[#fecaca] ease-in duration-100 cursor-pointer drop-shadow-lg "
             />
           </a>
         </div>

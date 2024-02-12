@@ -34,33 +34,33 @@ export default function Navbar() {
           </div>
           <ul className="flex space-x-4 text-2xl select-none">
             <li
-              className="text-slate-700 hover:text-[#fecaca] ease-in duration-200 hidden sm:block"
+              className="text-slate-700 hover:text-[#fecaca] ease-in duration-100 hidden sm:block"
               onClick={closeMenu}
             >
               <a href="#inicio">INICIO</a>
             </li>
             <li
-              className="text-slate-700 hover:text-[#fecaca]  ease-in duration-200 hidden sm:block"
+              className="text-slate-700 hover:text-[#fecaca]  ease-in duration-100 hidden sm:block"
               onClick={closeMenu}
             >
               {" "}
               <a href="#nosotros">NOSOTRAS</a>
             </li>
             <li
-              className="text-slate-700 hover:text-[#fecaca]  ease-in duration-200 hidden sm:block"
+              className="text-slate-700 hover:text-[#fecaca]  ease-in duration-100 hidden sm:block"
               onClick={closeMenu}
             >
               <a href="#galeria">GALERIA</a>
             </li>
             <li
               href="/Taller"
-              className="text-slate-700 hover:text-[#fecaca]  ease-in duration-200 hidden sm:block"
+              className="text-slate-700 hover:text-[#fecaca]  ease-in duration-100 hidden sm:block"
               onClick={closeMenu}
             >
               <a href="#taller">EL TALLER</a>
             </li>
             <li
-              className="text-slate-700 hover:text-[#fecaca] ease-in duration-200 hidden sm:block"
+              className="text-slate-700 hover:text-[#fecaca] ease-in duration-100 hidden sm:block"
               onClick={closeMenu}
             >
               {" "}
@@ -72,7 +72,7 @@ export default function Navbar() {
               <HiOutlineX size={40} />
             ) : (
               <HiMenu
-                className="fill-[#fecaca] hover:fill-slate-700 ease-in duration-200 drop-shadow-lg"
+                className="fill-[#fecaca] hover:fill-slate-700 ease-in duration-100 drop-shadow-lg"
                 size={40}
               />
             )}
@@ -80,7 +80,7 @@ export default function Navbar() {
           {menuOpen && (
             <div className="absolute top-14 left-0 w-full bg-[#d87f7f] text-[#fecaca] px-0 flex flex-col items-center ">
               <ul className="w-full">
-                <li className="text-center text-2xl w-full border-t border-[#fecaca]  text-slate-700  hover:text-[#fecaca] hover:bg-[#cf6b6b] ease-in duration-300 py-2">
+                <li className="text-center text-2xl w-full border-t border-[#fecaca]  text-slate-700  hover:text-[#fecaca] hover:bg-[#cf6b6b] ease-in duration-100 py-2">
                   <a href="#inicio" className="" onClick={closeMenu}>
                     INICIO
                   </a>

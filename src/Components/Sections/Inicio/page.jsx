@@ -36,7 +36,7 @@ export default function Inicio() {
             </div>
 
             <h2 className="text-slate-700 text-2xl  text-center">
-              MUÑECAS, JUGUETES Y ARTESANÍAS.
+              DISEÑOS TEXTILES, BORDADOS Y MUÑECOS.
             </h2>
             <a href="#nosotros" className="boton">
               INGRESAR

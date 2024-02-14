@@ -5,7 +5,7 @@ export default function Taller() {
   return (
     <>
       <section className="bg-[#86A1B3] bg-Fondo min-h-[800px] py-20" id="taller">
-        <div className="grid grid-cols-3 gap-8 px-8 justify-items-center md:flex md:flex-row md:justify-center md:items-center">
+        <div className="grid grid-cols-3 gap-8 px-8 justify-items-center md:flex md:flex-row md:justify-center md:items-center ">
           <Image
             src="/card1.svg"
             alt="texto taller 1"

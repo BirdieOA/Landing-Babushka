@@ -22,7 +22,7 @@ export default function Inicio() {
                 height="80"
                 className="rotate-45 hidden md:block"
               />
-              <h1 className="text-6xl sm:text-8xl text-slate-700 mb-4">
+              <h1 className="text-6xl sm:text-8xl text-slate-700 mb-4 ">
                 BABUSHKA
               </h1>
 

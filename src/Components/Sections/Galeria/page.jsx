@@ -18,7 +18,7 @@ export default function Galeria() {
               className="rounded-lg sm:col-span-1 border-2 border-[#d87f7f] shadow-lg shadow-[#804040] col-span-2"
             />
             <Image
-              src="/C1.svg"
+              src="/B2.svg"
               alt="Foto de Muñeca Rusa"
               width="180"
               height="100"
